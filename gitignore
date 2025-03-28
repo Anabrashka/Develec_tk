@@ -1,0 +1,53 @@
+# Unity generated files
+[LlavesGlobales]
+[LlavesUsuario]
+[LlavesSistema]
+[LlavesCache]
+[LlavesUnity]
+[LlavesTemp]
+[LlavesBuilds]
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Globales
+*.bak
+*.tmp
+*.swp
+
+# Configs de usuario y solución
+*.userprefs
+*.pidb
+*.sln
+*.csproj
+*.unityproj
+*.suo
+*.user
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+
+# Archivos de sistema
+*.log
+*.vsconfig
+
+# Carpetas generadas por Unity
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+MemoryCaptures/
+UserSettings/
+
+# Exportaciones y paquetes
+*.apk
+*.aab
+*.unitypackage
+
+# Ignorar backups de VS Code
+.vscode/
