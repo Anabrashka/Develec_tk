@@ -11,3 +11,23 @@ Este proyecto controla un sistema de relays y un LED RGB utilizando MQTT y JSON 
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/tu_usuario/Develec_ESP32_MQTT_JSON.git
+    Abre el proyecto en PlatformIO (VSCode).
+
+    Configura tus credenciales de WiFi y MQTT en CONFIG.hpp.
+
+    Conecta el ESP32 y sube el código.
+
+Uso
+
+Envía comandos MQTT con el siguiente formato:
+
+    Para encender un relay:
+
+{ "state": "ON" }
+
+Para cambiar el color del LED RGB:
+
+    { "r": 255, "g": 0, "b": 0 }
+
+
+---
