@@ -20,10 +20,10 @@ Este proyecto controla un sistema de relays y un LED RGB utilizando MQTT y JSON 
 Uso
 
 Envía comandos MQTT con el siguiente formato:
+Para encender un relay:
 
-    Para encender un relay:
+      { "state": "ON" }
 
-{ "state": "ON" }
 
 Para cambiar el color del LED RGB:
 
